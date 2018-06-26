@@ -4,7 +4,7 @@
 #
 #3
 #sam 99912222
-#tom 11122222
+#tom 11122222"
 #harry 12299933
 #sam
 #edward
@@ -17,3 +17,13 @@
 #harry=12299933
 
 #code here!
+import sys 
+
+def Lucy = 2039233989
+
+
+choice = input("Enter a name here: ") 
+if choice == 'Lucy':
+  print (Lucy)
+else:
+  print("Invalid Option")
