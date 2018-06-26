@@ -12,11 +12,17 @@
 #!/bin/python3
 
 import sys
+import math
 
 def lowestTriangle(base, area):
+    h = 2*area/base
+     return math.ceil(h)
+    #return h
     # Complete this function
 
 base, area = input().strip().split(' ')
 base, area = [int(base), int(area)]
 height = lowestTriangle(base, area)
 print(height)
+
+#done by Steele and Dylan
